@@ -1,0 +1,13 @@
+.headerCont{
+  display: flex;
+  align-items: center;
+  padding:0 4px;
+  gap: 2rem;
+}
+.postCont{
+  overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  height: 100vh;
+  scroll-behavior: smooth;
+}

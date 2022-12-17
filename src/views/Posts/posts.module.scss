@@ -1,0 +1,39 @@
+.postPageHeader {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.searchInput {
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  input {
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+}
+.postsCont {
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  height: 100vh;
+  scroll-behavior: smooth;
+  .postList {
+    list-style: none;
+    padding: 0;
+    overflow-y: scroll;
+  }
+}
+.comments {
+  display: flex;
+  flex-direction: column;
+}

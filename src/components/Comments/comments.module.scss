@@ -1,0 +1,27 @@
+
+  .comment {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+    padding: 12px 16px;
+    border-top: 1px solid rgb(47, 51, 54);
+    &__info {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      justify-content: space-between;
+    }
+    &__user {
+      font-weight: 600;
+      font-size: 1rem;
+      color: white;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .commentBody {
+      font-size: 1.2rem;
+    }
+  }
+

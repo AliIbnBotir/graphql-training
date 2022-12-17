@@ -1,0 +1,12 @@
+#root {
+  max-width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  border-left: 1px solid rgb(47, 51, 54);
+  border-right: 1px solid rgb(47, 51, 54);
+}
+.App{
+  width: 600px;
+}
